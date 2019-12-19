@@ -13,4 +13,4 @@ document.write(Natasha);
 document.write(2+3);
 var A = " I\'m not crazy" + " You are crazy";
 document.write(A);
-
+function assemble(){document.write("Avengers Assemble");}
