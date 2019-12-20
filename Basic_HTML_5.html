@@ -1,10 +1,24 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset=""utf-8">
+    <head>
+        <meta charset="utf-8">
+        <style>
+            .click:hover p{
+                cursor: pointer;
+            }
+        </style>
     </head>
-	<body>
-        
-        <script src="JS/Basic_JavaScript_5.js"></script>
-    </body>
+	    <body> 
+            <p> What kind of data is this?</p>
+            <input id="string" type="submit" value = "Word" onclick= "Word()"></input> 
+            <input id="integer" type="submit" value = "5" onclick= "Num()"></input> 
+            <div class="click">
+                <p onclick="False()" id="no">Is the first button a word?</p>
+                <p onclick="True()" id="yes"> Is the second button a word?</p>
+                <p onclick="foolish()" id="what">What if we divide them by each other?</p>
+                <p onclick="lightyear()" id="buzz">What do we see if we stare into space?</p>  
+                <p onclick="blackhole()" id="buzzkill">What do we see if we stare into a black hole?</p>
+            </div>
+            <script src="JS/Basic_JavaScript_5.js"></script>
+        </body>
 </html>
