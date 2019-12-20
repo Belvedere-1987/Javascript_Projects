@@ -3,7 +3,9 @@ function Rock_Bands() {
         Singer: "Robert Plant",
         Drummer: "Jon Bonham",
         Bassist: "John Paul Jones",
+        Guitarist:"Jimmy Page"
         };
-    document.getElementById("Dictionary").innerHTML=Led_Zeppelin.Guitarist;
+        delete Led_Zeppelin.Guitarist
+        document.getElementById("Dictionary").innerHTML=Led_Zeppelin.Guitarist;
     }
     
