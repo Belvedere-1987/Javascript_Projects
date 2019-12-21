@@ -27,4 +27,11 @@ function music() {
     document.getElementById("New_and_This").innerHTML=LedZeppelin.Artist_Genre+ " is my favorite genre. "+theBeatles.Artist_Best_Album + 
     " is probably the greatest rock album ever recorded. " + BlackSabbath.Artist_Name + " and " + PearlJam.Artist_Name + " are important originators of new genres."
 } 
+function myFunction(){
+    document.getElementById("Nested_Function").innerHTML=blue()
+    function blue(){
+        var X=getElementById("pgraph");
+        
+    }
 
+}
