@@ -64,3 +64,26 @@ let muscle = {
 };
 document.getElementById("strong").innerHTML=muscle.identity();
 
+// WHY doesn't this work????//
+//function remainder1() {
+//    var Hero;
+//    for (X = 0; X < Avengers.length; X++){
+//        if (Avengers[X]===Avengers[0] || Avengers[X]===Avengers[1]){continue;}
+//    {Hero += Avengers[X] + ", "}}
+//    document.getElementById("left").innerHTML= Hero;
+// }
+
+function remainder (){
+
+    for (X = 0; X < Avengers.length; X++){
+    if (Avengers[X]===Avengers[0] || Avengers[X]===Avengers[1]){continue;}
+     {document.write(Avengers[X] + ", ")}}
+};
+
+function Civil_War(){
+
+    for (X = 0; X < Avengers.length; X++){
+        if (X===2){break;}
+         {document.write(Avengers[X] + ", ")}}
+
+};
