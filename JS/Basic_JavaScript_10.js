@@ -11,6 +11,7 @@ function string_counter(){
         var counter= str.length;
         document.getElementById("answer").innerHTML=counter;
 }        
+//This array is referenced on lines 67-89//
 var Avengers=["Ironman", "Captain America", "Thor", "Black Window", "Hulk" ];
 var Answer= "";
 var X;
