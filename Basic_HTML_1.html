@@ -2,9 +2,18 @@
 <html>
 <head>
     <meta charset=""utf-8">
-    <script src="JS/Basic_JavaScript_1.js"></script>
+    
 </head>
 	<body>
-        <input type="text" onkeypress="assemble()">
+        <a name="Link1"> Link </a>
+        <a name="Link2"> Link2 </a>
+        <a name="LInk3"> Link3</a>
+        <button onclick=getLinks()> Click me to see how many links this document has! </button>
+        <script>
+            function getLinks(){
+                var link=document.anchors.length;
+                document.write(link)
+            }
+        </script>
 	</body>
 </html>
